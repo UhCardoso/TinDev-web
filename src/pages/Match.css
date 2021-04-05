@@ -1,0 +1,121 @@
+.list-match-container {
+    width: 100%; 
+}
+.list-match-container header {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+.list-match-container header nav {
+    position: absolute;
+    right: 30px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+}
+.list-match-container header a {
+   margin: 0 10px;
+   text-decoration: none;
+   color: black;
+}
+.list-match-container header nav .selected {
+    color: #DF4723;
+    border-bottom: 1px solid #DF4723;
+}
+.list-match-container header nav .selected:hover {
+    border-bottom: 1px solid #DF4723;
+    color: #DF4723;
+}
+.list-match-container header nav span:hover {
+    color: gray;
+}
+
+.list-match-container ul {
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.list-match-container ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.list-match-container ul li img {
+    background-color: #ccc;
+    width: 15%;
+    min-height: 50px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+.list-match-container ul li p {
+    text-transform: capitalize;
+    color: #000;
+    width: 42.5%;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    font-weight: bold;
+}
+.list-match-container ul li .bio {
+    text-transform: capitalize;
+    color: #000;
+    width: 42.5%;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    min-height: 50px;
+    max-height: 80px;
+    font-size: 10px;
+    padding: 2px;
+    color: gray
+}
+
+.match-none {
+    color: gray;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+/* breakpoints */
+@media(max-width: 650px) {
+    .list-match-container header {
+        height: 50px;
+    }
+    .list-match-container header img {
+        position: absolute;
+        left: 25px;
+        top: 5px
+    }
+
+    .list-match-container ul {
+        width: 80%;
+    }
+}
+
+@media(max-width: 520px) {
+    .list-match-container ul {
+        width: 95%;
+    }
+}
+
+@media(max-width: 450px) {
+    .list-match-container ul {
+        width: 95%;
+    }
+    .list-match-container ul li p {
+        width: 85%;
+        text-align: center;
+    }
+    .list-match-container ul li .bio { 
+        display: none;
+    }
+}
