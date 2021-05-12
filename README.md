@@ -3,7 +3,8 @@
 Projeto do Frontend em ReactJS onde foi criado um app baseado nos matches do tinder, no qual os desenvolvedores podem curtir um ao outro com base nas tecnologias que eles têm conhecimento. O projeto foi desenvolvido durante a semana Omnistack7, praticando os principais conceitos de ReactJS, ReactNative e NodeJs com MongoDB. 
 Neste projeto eu adicionei uma funcionalidade extra no qual o usuário poderá ver uma página com lista de desenvolvedores que ele deu match.
 
-![alt text](https://thumbs2.imgbox.com/d2/6d/r9mRBzrn_t.png)
+[![](https://thumbs2.imgbox.com/d2/6d/r9mRBzrn_t.png)](http://werlendev.cf/tindev/)<br/>
+(clique na imagem para ver o site)
 
 ---
 ## Features do projeto
